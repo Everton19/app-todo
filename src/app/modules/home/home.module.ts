@@ -5,6 +5,7 @@ import { TodoButtonDeleteAllComponent } from './components/todo-button-delete-al
 import { TodoInputItemComponent } from './components/todo-input-item/todo-input-item.component';
 import { TodoListComponent } from './components/todo-list/todo-list.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -12,10 +13,11 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     TodoButtonDeleteAllComponent,
     TodoInputItemComponent,
     TodoListComponent,
-    HomePageComponent
+    HomePageComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class HomeModule { }
