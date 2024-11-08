@@ -13,6 +13,14 @@ body {
   background-color: $primary-background-color;
 }
 
+ul {
+  list-style: none;
+}
+
+input:focus, button {
+  outline: none;
+}
+
 .container{
   width: 350px;
   margin: 50px auto;
